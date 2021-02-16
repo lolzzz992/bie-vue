@@ -10,13 +10,13 @@ export const i18n = new Vuei18n({
 			en: {
 					welcomeMsg: 'Not welcome to Your Vue.js App',
 					pluginsTxt: 'Remove these CLI Plugins',
-					guideTxt: 'For a guide and recipes on how to configurate / customize this project',
+					guideTxt: 'For a guide and recipes on how to configurate / customize this project,{break} check out the {action}',
 					guideDocTxt: 'vue-cli documentation'
 				},
 			ru: {
 					welcomeMsg: 'Не приветсвуем в Vue.js App',
 					pluginsTxt: 'Удали эти CLI Plugins',
-					guideTxt: 'Для руководства и примеров как настроить этот проект,{break} смотри в мануале для чайников',
+					guideTxt: 'Для руководства и примеров как настроить этот проект,{break} смотри в {action}',
 					guideDocTxt: 'vue-cli документации'
 				}
 		}
